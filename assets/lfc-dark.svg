@@ -1,9 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="230" height="40" viewBox="0 0 230 40" role="img" aria-label="Let's F... Connect, Code, Cook">
+  <defs>
+    <filter id="glow" x="-50%" y="-80%" width="200%" height="260%">
+      <feGaussianBlur stdDeviation="1.8"/>
+    </filter>
+  </defs>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 22px; }
     .ink  { fill: #E6EDF3; }
     .dim  { fill: #7D8590; }
-    .key  { fill: #5B84EE; font-weight: 700; }
+    .key  { fill: #2F9BFF; font-weight: 700; }
+    .hide { fill: transparent; }
+    .halo { opacity: 0.6; animation: pulse 2.5s ease-in-out infinite alternate; }
+    @keyframes pulse {
+      from { opacity: 0.3; }
+      to   { opacity: 0.6; }
+    }
     .tail { fill: #E6EDF3; font-weight: 600; opacity: 0; animation: swap 9s ease-in-out infinite; }
     .t2   { animation-delay: -6s; }
     .t3   { animation-delay: -3s; }
@@ -15,10 +26,11 @@
       100% { opacity: 0; transform: translateY(-6px); }
     }
     @media (prefers-reduced-motion: reduce) {
-      .tail { animation: none; }
+      .halo, .tail { animation: none; }
       .t1 { opacity: 1; }
     }
   </style>
+  <text class="halo" x="100" y="28" text-anchor="end" filter="url(#glow)"><tspan class="key">L</tspan><tspan class="hide">et's </tspan><tspan class="key">F</tspan><tspan class="hide">… </tspan><tspan class="key">C</tspan></text>
   <text x="100" y="28" text-anchor="end"><tspan class="key">L</tspan><tspan class="ink">et's </tspan><tspan class="key">F</tspan><tspan class="dim">… </tspan><tspan class="key">C</tspan></text>
   <text class="tail t1" x="100" y="28">onnect 🌐</text>
   <text class="tail t2" x="100" y="28">ode 💻</text>
