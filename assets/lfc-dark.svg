@@ -1,24 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="330" height="40" viewBox="0 0 330 40" role="img" aria-label="LFC: Let's f*cking connect, Let's f*cking code">
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="40" viewBox="0 0 230 40" role="img" aria-label="Let's F... Connect, Code, Cook">
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 22px; }
-    .base { fill: #E6EDF3; }
-    .acr  { fill: #E6EDF3; font-weight: 700; letter-spacing: 1px; }
-    .dot  { fill: #7D8590; }
-    .word { fill: #E0A57A; font-weight: 600; opacity: 0; animation: swap 6s ease-in-out infinite; }
-    .w2   { animation-delay: -3s; }
+    .ink  { fill: #E6EDF3; }
+    .dim  { fill: #7D8590; }
+    .key  { fill: #E0A57A; font-weight: 700; }
+    .tail { fill: #E6EDF3; font-weight: 600; opacity: 0; animation: swap 9s ease-in-out infinite; }
+    .t2   { animation-delay: -6s; }
+    .t3   { animation-delay: -3s; }
     @keyframes swap {
-      0%   { opacity: 0; transform: translateY(8px); }
-      8%   { opacity: 1; transform: translateY(0); }
-      42%  { opacity: 1; transform: translateY(0); }
-      50%  { opacity: 0; transform: translateY(-8px); }
-      100% { opacity: 0; transform: translateY(-8px); }
+      0%   { opacity: 0; transform: translateY(6px); }
+      5%   { opacity: 1; transform: translateY(0); }
+      28%  { opacity: 1; transform: translateY(0); }
+      33%  { opacity: 0; transform: translateY(-6px); }
+      100% { opacity: 0; transform: translateY(-6px); }
     }
     @media (prefers-reduced-motion: reduce) {
-      .word { animation: none; }
-      .w1 { opacity: 1; }
+      .tail { animation: none; }
+      .t1 { opacity: 1; }
     }
   </style>
-  <text x="178" y="28" text-anchor="end"><tspan class="acr">LFC</tspan><tspan class="dot"> · </tspan><tspan class="base">Let's f*cking</tspan></text>
-  <text class="word w1" x="185" y="28">connect 🤝</text>
-  <text class="word w2" x="185" y="28">code 💻</text>
+  <text x="100" y="28" text-anchor="end"><tspan class="key">L</tspan><tspan class="ink">et's </tspan><tspan class="key">F</tspan><tspan class="dim">… </tspan><tspan class="key">C</tspan></text>
+  <text class="tail t1" x="100" y="28">onnect 🤝</text>
+  <text class="tail t2" x="100" y="28">ode 💻</text>
+  <text class="tail t3" x="100" y="28">ook 🔥</text>
 </svg>
