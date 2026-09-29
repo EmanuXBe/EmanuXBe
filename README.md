@@ -1,34 +1,29 @@
-# Emanuel Benavides León
+# Hola, I'm Emanuel 👋
 
-Co-founder and product lead from Bogotá, Colombia. I sit down with the people who have the problem, turn it into something an engineering team can build, and stay until it runs in production with real users.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lfc-dark.svg">
+  <img src="assets/lfc-light.svg" alt="LFC: Let's f*cking connect, Let's f*cking code">
+</picture>
 
-Most of that work lives in private company repositories. This page is the map.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Emanuel%20Benavides-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emanuel-benavides/)
+[![Web](https://img.shields.io/badge/Web-emanuelbenavile.com-1F2328?logo=googlechrome&logoColor=white)](https://emanuelbenavile.com)
 
-### What I'm building
+---
 
-| | Role | What it does |
-|---|---|---|
-| **[Truway](https://www.truway.xyz)** | Co-founder | Fund traceability for LATAM foundations, from the invoice to the donor report. Built on Stellar and Soroban. Piloting with three foundations. |
-| **[Prediu](https://prediu.com)** | Fractional tech lead and product designer | Collaboration platform for realtors in Colombia. MVP launching October 2026. |
-| **[Octoul](https://octoul.lat)** | Co-founder | Construction milestones captured and verified on site. |
-| **EduMAS** | Researcher | Multi-agent AI tutoring, piloted at two Colombian universities. |
+- **Co-founder** of **[Truway](https://www.truway.xyz)**, fund traceability for foundations, built on Stellar
+- **Product lead** who ships: from the first client conversation to production
+- **Stellar LATAM builder**: StarMaker ambassador, Stellar GIVE, Devconnect Buenos Aires, Stellar Summit São Paulo
+- **Published researcher**: AI agents in education and blockchain for construction (Springer CCIS)
+- **Open source**: macOS 27 fixes merged into [GalaxyBudsClient](https://github.com/timschneeb/GalaxyBudsClient/pull/741) (5k ⭐)
+- Based in Bogotá, Colombia · Español, English, Português
 
-### Open source
+---
 
-- **Merged:** [macOS 27 fixes for GalaxyBudsClient](https://github.com/timschneeb/GalaxyBudsClient/pull/741) (5k stars). Empty device picker, broken dropdowns and silent 360 audio.
-- **[StellarScan](https://github.com/EmanuXBe/x402scan):** Stellar support for the x402scan explorer. Indexed 2,540 real x402 payments on Stellar mainnet and found why the explorer could not see them: Stellar services announce themselves through SEP-1, not `/.well-known/x402`.
+### 💼 What I'm up to
+- Piloting **Truway** with three foundations
+- Shipping the **[Prediu](https://prediu.com)** MVP for realtors in Colombia
+- Building **[Octoul](https://octoul.lat)**: construction milestones verified on site
 
-### Research
+---
 
-- *Toward Blockchain-BIM Integration for Digital Transformation in Latin American Construction.* 20th Colombian Conference on Computing, Springer CCIS.
-- *A Proposed AI Agents Model for University-Level Engineer Courses.* 19th Colombian Conference on Computing.
-
-### What I ship with
-
-TypeScript · Next.js · React · NestJS · Python · FastAPI · Rust (Soroban) · PostgreSQL · Convex · Cloudflare · AWS
-
-### Elsewhere
-
-[emanuelbenavile.com](https://emanuelbenavile.com) · [LinkedIn](https://www.linkedin.com/in/emanuel-benavides/) · emanuel-benavides@javeriana.edu.co
-
-<sub>Hablo español, inglés y portugués. Escríbeme en el que prefieras.</sub>
+💌 **[emanuel-benavides@javeriana.edu.co](mailto:emanuel-benavides@javeriana.edu.co)** for product, Stellar or research.
