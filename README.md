@@ -1,8 +1,8 @@
 # Buenass, I'm Emanuel 👋
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/lfc-dark.svg">
-  <img src="assets/lfc-light.svg" alt="Let's F... Connect, Code, Cook">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lfc-dark-v2.svg">
+  <img src="assets/lfc-light-v2.svg" alt="Let's F... Connect, Code, Cook">
 </picture>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-1F2328?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emanuel-benavides/)
