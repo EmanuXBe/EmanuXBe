@@ -1,4 +1,4 @@
-# Hola, I'm Emanuel 👋
+# Buenass, I'm Emanuel 👋
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/lfc-dark.svg">
